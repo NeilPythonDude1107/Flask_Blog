@@ -2,7 +2,4 @@
 A Blog with a User-Management System- Made with the Flask framework
 
 # How-To-Use:
-
-We have incleded the templates, static files and the main python file in the repository. To run this code there are a few requirements which have been specified in the requirements.txt file. You must pip install these packages to run this code. Also to view the app you must enter the following in your terminal, 'python flaskblog.py' and it should start up a development server. You can then go to http://localhost:5000 and viewm your app. For more details visit ArryNation on youtube and watch the stream! Be sure to like and subscribe :) 
-
-# Channel Link: https://www.youtube.com/channel/UCSD_Ae-b5bgK6K5TIwXTO2A
+Basically all you have to do is open the repo in a text-editor and run pip install. You can then delete site.db and run this terminal command: python3 which open up a python REPL. in the REPL run 'from flaskblog import db'. If you dont get any errors then run 'db.session.commit'! You can run exit out of the REPL by ctrl-c and run the following 'python flaskblog.py'. If you are using a development server consider turning debug mode on by changing the last line of flaskblog.py from debug=false to debug-true
